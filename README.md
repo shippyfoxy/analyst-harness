@@ -242,7 +242,7 @@ articles for verification, `vault links` finds dead citations, and `vault verify
 ```bash
 npm run check          # lint, typecheck, tests
 npm run test:coverage  # Jest with coverage thresholds
-npm run test:e2e       # dashboard UI in Chromium (npx playwright install chromium first)
+npm run test:e2e       # dashboard UI in Chromium (npx playwright install chromium first, or set E2E_CHROMIUM_PATH)
 npm run format         # Prettier
 npm run vault:lint     # vault rules
 ```
