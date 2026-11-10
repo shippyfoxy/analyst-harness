@@ -1,7 +1,7 @@
 # Hacker News front page through the official Firebase API (no key, no scraping of HTML).
 name: hn-top-stories
 description: Hacker News top stories (official API)
-enabled: true
+enabled: false
 schedule: '7 * * * *'
 source:
   type: json

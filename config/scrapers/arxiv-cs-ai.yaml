@@ -1,7 +1,7 @@
 # Newest cs.AI papers from the arXiv API (Atom). arXiv asks for at most one request every three seconds.
 name: arxiv-cs-ai
 description: Latest arXiv cs.AI submissions (official API, Atom feed)
-enabled: true
+enabled: false
 schedule: '23 6 * * *'
 source:
   type: rss

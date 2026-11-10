@@ -360,7 +360,7 @@ describe('extractors', () => {
       { date: '2026-10-22', currency: 'JPY', rate: 160.95 },
     ]);
     expect(recordKey(ecb, valid[0]!)).toBe('2026-10-23|USD');
-    expect(ecb).toMatchObject({ enabled: true, timezone: 'Europe/Berlin', output: { mode: 'new' } });
+    expect(ecb).toMatchObject({ enabled: false, timezone: 'Europe/Berlin', output: { mode: 'new' } });
   });
 
   test('csv: header rows, delimiters, skipped preamble and column fields', async () => {

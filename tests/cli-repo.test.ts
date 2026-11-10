@@ -108,7 +108,7 @@ describe('CLI', () => {
       expect(await runCli(['doctor'], io)).toBe(0);
       expect(s.out.join('\n')).toMatch(/agents loaded/);
       expect(await runCli(['jobs'], io)).toBe(0);
-      expect(s.out.join('\n')).toContain('scrape:hn-top-stories');
+      expect(s.out.join('\n')).toContain('vault-lint');
       expect(await runCli(['runs'], io)).toBe(0);
       expect(await runCli(['profiles'], io)).toBe(0);
       expect(await runCli(['skills', 'proposed'], io)).toBe(0);

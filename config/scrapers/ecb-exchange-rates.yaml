@@ -5,7 +5,7 @@
 # Rates are units of the currency per 1 EUR.
 name: ecb-exchange-rates
 description: ECB euro reference exchange rates (official XML, last 90 days)
-enabled: true
+enabled: false
 schedule: '17 16 * * 1-5'
 timezone: Europe/Berlin
 source:
